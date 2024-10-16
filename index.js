@@ -1,22 +1,22 @@
 let nivel = ""
-let saldoVitoria = saldoRankeadas(400,200)
+let saldoVitoria = saldoRankeadas(200,100)
 
-if(saldoVitoria <10){
+if(saldoVitoria <=10){
     nivel = "Ferro"}
 
-else if(saldoVitoria >11 && saldoVitoria <20){
+else if(saldoVitoria >=11 && saldoVitoria <=20){
     nivel = "Bronze"}
         
-else if(saldoVitoria >21 && saldoVitoria <50){
+else if(saldoVitoria >=21 && saldoVitoria <=50){
     nivel = "Prata"}
 
-else if(saldoVitoria >51 && saldoVitoria <80){
+else if(saldoVitoria >=51 && saldoVitoria <=80){
     nivel = "Ouro"}
         
-else if(saldoVitoria >81 && saldoVitoria <90){
+else if(saldoVitoria >=81 && saldoVitoria <=90){
     nivel = "Platina"}
 
-else if(saldoVitoria >91 && saldoVitoria <100){
+else if(saldoVitoria >=91 && saldoVitoria <=100){
     nivel = "Ascendente"}
 
 else if(saldoVitoria >=101){
